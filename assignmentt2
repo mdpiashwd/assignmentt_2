@@ -1,0 +1,61 @@
+<?php 
+	$a=20;
+	$b=30;
+	$c=$a**5;
+	echo $c."<br>";
+	echo $d=20+10-2*4/2;
+	echo"<br>";
+	echo $e=20+40*2/4;
+	echo"<br>";
+	echo $e=(20+40)*2/4;
+	echo"<br>";
+	$num=20;
+	$num++;
+	echo $num."<br>";
+	$num--;
+	echo $num."<br>";
+	$num2=30;
+	echo ++$num2."<br>";
+	$y=20.887;
+	echo $y."<br>";
+	echo floor($y)."<br>";
+	$r=30.1;
+	echo ceil($r)."<br>";
+	echo pi()+20;
+	$array=array("bangla","english","chemistry");
+	echo"<br>";
+	echo $array['1'];
+	$pi=["piash","masum","kazi"];
+	echo $pi[2];
+	echo"<br>";
+	$ab=array("saiful","student","misty");
+	echo"<pre>";
+	$ab[2]="pizza";
+	$ab[1]="Pharmacist";
+	$ab[]="pizzaburg";
+	print_r($ab);
+	echo"</pre>";
+	/*Array merge strart*/
+	$arrayone=array(20,39,40);
+	$arraytwo=[90,80,70,100,190];
+	$newarray=array_merge($arrayone,$arraytwo);
+	echo"<pre>";
+	print_r($newarray);
+	/*Array merge end*/
+	$asociated=array('name'=>"Piash",'district'=>"Feni",'profe'=>"Student");
+	echo $asociated['district'];
+	echo"<br>";
+
+	$multiple=array(
+
+			array("rajib","ridoy","taher"),
+			array("masum","nader","jihad")
+
+	);
+	echo $multiple[1][2]."<br>";
+
+	for($i=1;$i<10;$i++){
+		echo $i."<br>";
+	}
+
+?>
